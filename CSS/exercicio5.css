@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+#fundo{
+position: relative;
+width: 1000px;
+height: 700px;
+background-color: lightblue;
+margin: auto;
+border-left: 5px solid black;
+border-top: 2px solid black;
+border-bottom: 5px solid black;
+border-right: 2px solid black;
+}
+
+#topo{
+    position: relative;
+    width: 993px;
+    height: 100px;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+}
+#conteudo{
+    width: 750px;
+    height: 550px;
+    background-color: gray;
+    margin-left: 70px;
+    
+
+}
+#rodape{
+    position: relative;
+    width: 993px;
+    height: 43px;
+    background-color: cyan;
+
+
+}
+
+#caixa1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin-left: 825px;
+    margin-top: 10px;
+   
+}
+#caixa2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin-left: 825px;
+    margin-top:120px;
+   
+  
+}
+#imagem img{ 
+    position: absolute;
+    width: 120px;
+    height: 150px;
+    top: 500px;
+    left: 740px;
+    
+
+
+}
