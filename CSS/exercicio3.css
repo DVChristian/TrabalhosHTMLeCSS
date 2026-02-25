@@ -1,0 +1,100 @@
+#fundo{
+    position: absolute;
+    width: 1000px;
+             height: 700px;
+             background-color:rgb(182, 181, 179);
+             top: 10px;
+             left: 420px;
+             z-index: 1;
+            }
+#nav{
+                position: absolute;
+             width: 1000px;
+             height: 200px;
+             background-color: rgb(207, 139, 75);
+             text-align: center;
+             top: 10px;
+             left: 420px;
+             z-index: 1;
+            }
+#pesquisa{
+    position: absolute;
+    width: 500px;
+             height: 50px;
+             background-color:gray;
+             text-align: center;
+             top: 85px;
+             left: 640px;
+             z-index: 1;
+}
+#cubinho{
+    position: absolute;
+    width: 450px;
+             height: 50px;
+             background-color: white;
+             text-align: center;
+             top: 85px;
+             left: 640px;
+             z-index: 2;
+}
+#blocoq1{
+    position: absolute;
+    width: 200px;
+             height: 200px;
+             background-color: rgb(166, 112, 228);
+             text-align: center;
+             top: 280px;
+             left: 500px;
+             z-index: 1;
+}
+#blocoq2{
+     position: absolute;
+    width: 200px;
+             height: 200px;
+             background-color: rgb(166, 112, 228);
+             text-align: center;
+             top: 490px;
+             left: 500px;
+             z-index: 1;
+}
+#blocoq3{
+    position: absolute;
+    width: 200px;
+             height: 200px;
+             background-color: rgb(166, 112, 228);
+             text-align: center;
+             top: 280px;
+             left: 710px;
+             z-index: 1;
+}
+#blocoq4{
+    position: absolute;
+    width: 200px;
+             height: 200px;
+             background-color: rgb(166, 112, 228);
+             text-align: center;
+             top: 280px;
+             left: 920px;
+             z-index: 1;
+}
+#blocor1{
+    position: absolute;
+    width: 410px;
+             height: 200px;
+             background-color: rgb(166, 112, 228);
+             text-align: center;
+             top: 490px;
+             left: 710px;
+             z-index: 1;
+}
+#blocor2{
+    position: absolute;
+    width: 200px;
+             height: 410px;
+             background-color: rgb(166, 112, 228);
+             text-align: center;
+             top: 280px;
+             left: 1130px;
+             z-index: 1;
+}
+

@@ -1,0 +1,55 @@
+#camada4 {
+    position: absolute; /* componente absoluto é oq está sobreposto na página*/
+             width: 1000px;
+             height: 500px;
+             background-color: yellow;
+             border: 5px solid red;
+             text-align: center;
+             top: 210px;
+             left: 420px;
+             z-index: 1;
+}
+#camada1{
+    position: absolute;
+    width: 200px;
+             height: 150px;
+             background-color: blue;
+             color: white;
+             text-align: center;
+             top: 10px;
+             left: 420px;
+             z-index: 1;
+}
+#camada3{
+    position: absolute;
+    width: 1010px;
+             height: 50px;
+             background-color: green;
+             color: black;
+             text-align: center;
+             top: 160px;
+             left: 420px;
+             z-index: 1;
+}
+#camada2{
+    position: absolute;
+    width: 810px;
+             height: 150px;
+             background-color: red;
+             color: white;
+             text-align: center;
+             top: 10px;
+             left: 620px;
+             z-index: 1;
+}
+#camada5{
+    position: absolute;
+    width: 1010px;
+             height: 50px;
+             background-color: gray;
+             color: black;
+             text-align: center;
+             top: 720px;
+             left: 420px;
+             z-index: 1;
+}
