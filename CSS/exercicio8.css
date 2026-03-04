@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    border: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+main{
+    position: relative;
+    width: 90%;
+    height: auto;
+    background-color: aquamarine;
+    margin: auto;
+    
+
+}
+main header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 50px;
+    
+}
+#navtopo{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    display: flex; /*alinha os componentes dentro de uma area*/
+    align-items: center; /* alinhamente vertical*/
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+}
+
+#navtopo a{
+    color: white;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+     display: flex; /*alinha os componentes dentro de uma area*/
+    align-items: center; /* alinhamente vertical*/
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#navleft{
+    position: relative;
+    width: 20%;
+    height: 550px;
+    background-color: rgb(236, 236, 218);
+
+    font-size: 40px;
+    color: white;
+    float: left;
+     display: flex; /*alinha os componentes dentro de uma area*/
+    align-items: center; /* alinhamente vertical*/
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+#navleft a{
+color: white;
+    width: 100%;
+    height: 47px;
+    background-color: gray;
+
+    text-decoration: none;
+     display: flex; /*alinha os componentes dentro de uma area*/
+    align-items: center; /* alinhamente vertical*/
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main section{
+    position: relative;
+    width: 60%;
+    height: 550px;
+    background-color: rgb(255, 246, 246);
+    color: rgb(0, 0, 0);
+    float: left;
+    text-align: center;
+    font-size: 40px;
+}
+#principal{
+     width: 95%;
+     height: 200px;
+     background-color: rgb(184, 147, 29);
+     color: white;
+     font-size: 40px;
+     margin: auto;
+     margin-top: 10px;
+     
+}
+#principal img{
+   
+    width: 100%;
+    height: 100%;
+}
+
+section p{
+    width: 95%;
+    height: 100px;
+    background-color: rgb(143, 185, 192);
+    color: black;
+    margin: auto;
+    margin-top: 15px;
+    text-align: left;
+    font-size: medium;
+    
+}
+
+#bloco1{
+    position: absolute;
+    width: 30%;
+    height: 150px;
+    background-color: gray;
+   left: 26px;
+    top: 385px;
+}
+#bloco1 img{
+    width: 100%;
+    height: 100%;
+}
+#bloco2{
+     position: absolute;
+    width: 30%;
+    height: 150px;
+    background-color: gray;
+   left: 355px;
+   top: 385px;
+    
+}
+#bloco2 img{
+    width: 100%;
+    height: 100%;
+
+}
+#bloco3{
+     position: absolute;
+    width: 30%;
+    height: 150px;
+    background-color: gray;
+   left: 683px;
+    top: 385px;
+      
+}
+#bloco3 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+main aside{
+    position: relative;
+    width: 20%;
+    height: 550px;
+    background-color: rgb(243, 5, 223);
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+}
+aside img{
+    width: 100%;
+    height: 100%;
+}
+
+main footer{
+    position: relative;
+width: 100%;
+height: 70px;
+background-color: black;
+color: white;
+clear: left;
+font-size: 40px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
