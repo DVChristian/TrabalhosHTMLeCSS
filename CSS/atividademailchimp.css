@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #c8daed;
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 13%;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+#infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+p {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.contas {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 20px;
+}
+#conectar {
+  position: relative;
+  width: 115px;
+  height: 40px;
+  border: 2px solid #0e0e0f;
+  text-align: center;
+  padding: 5px;
+}
+#cadrastro {
+  position: relative;
+  width: 200px;
+  height: 40px;
+  background-color: #128fa8;
+  color: white;
+  text-align: center;
+  padding: 8px;
+}
+#meiosite {
+  position: relative;
+  width: 80%;
+  height: 60%;
+  margin: auto;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#esquerda {
+  position: relative;
+  width: 48%;
+  height: 80%;
+}
+#titulo {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  color: black;
+  font-size: 60px;
+  font-weight: normal;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#text {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top: 50%;
+  color: grey;
+  font-size: 45px;
+  font-weight: normal;
+}
+#saiba {
+  position: absolute;
+  width: 38%;
+  height: 17%;
+  top: 110%;
+  color: white;
+  font-size: 30px;
+  font-weight: normal;
+  font-family: serif;
+  background-color: #128fa8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+}
+#direita {
+  position: relative;
+  width: 40%;
+  height: 80%;
+  align-items: center;
+}
+#produto {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  background-color: #f7d5c5;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#pontos {
+  position: absolute;
+  width: 35px;
+  top: 5px;
+  left: 5px;
+}
+#carrinho {
+  position: absolute;
+  width: 30px;
+  top: 5px;
+  left: 93%;
+}
+h3 {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top: 13%;
+  left: 36%;
+  color: rgb(247, 76, 37);
+  font-size: 25px;
+  font-weight: normal;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#pote {
+  position: relative;
+  width: 230px;
+  height: 200px;
+  top: 30%;
+  left: 10%;
+}
+b {
+  font-size: 22px;
+  font-family: monospace;
+  font-weight: lighter;
+  padding: 15px;
+}
+#catalogo {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  align-items: center;
+  top: 38%;
+  left: 56%;
+  border: 2px solid black;
+  border-radius: 9px;
+  border-bottom: 10px solid #000000be;
+  border-width: 15px solid black;
+}
+#produtos {
+  position: absolute;
+  top: 24%;
+  left: 10%;
+}
+#continue {
+  position: relative;
+  width: 80%;
+  height: 10%;
+  background-color: #128fa8;
+  color: white;
+  top: 70%;
+  left: 10%;
+  border-radius: 5px;
+  text-align: center;
+  padding: 2px;
+}
